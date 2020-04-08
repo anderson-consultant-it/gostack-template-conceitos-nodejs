@@ -11,7 +11,7 @@ describe("Projects", () => {
         title: "Umbriel",
         techs: ["Node", "Express", "TypeScript"]
       });
-
+    
     expect(isUuid(response.body.id)).toBe(true);
 
     expect(response.body).toMatchObject({
